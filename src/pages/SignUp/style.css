@@ -1,0 +1,110 @@
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-input{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 32px;
+
+}
+
+.container-input form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 72px;
+    position: relative;
+}
+
+.container-input form input{
+    all: unset;
+    width: 476px;
+    height: 51px;
+    background: #FDFAFA;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.olho{
+    width: 20px;
+    position: absolute;
+    top: 150px;
+    right: 5px;
+}
+
+.container-input p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #E24242;
+}
+
+.container-input button{
+    width: 476px;
+    height: 51px;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.cadastrar{
+    all: unset;
+    background-color: #2A4D77;
+    margin-bottom: 16px;
+}
+
+.cancelar{
+    all: unset;
+    background-color: rgba(251, 6, 21, 0.65);
+    margin-bottom: 98px;
+}
+
+
+.none{
+    display: none;
+}
+
+.sucesso-class{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.sucesso-class img {
+    width: 446px;
+    height: 478.91px;
+}
+
+.sucesso-class p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B2F49;
+}
+
+
+.cubos-academy{
+    height: 100vh;
+    width: 40%;
+}
+
+.cubos-academy img{
+    width: 100%;
+    height: 100%;
+}
